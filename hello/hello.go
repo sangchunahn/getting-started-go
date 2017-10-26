@@ -36,9 +36,17 @@ func main() {
 
 // * Part 3 * // Function Types
 
-	var s =  greeting.Salutation{"Joe", "Hello"}
-	greeting.Greet(s, greeting.CreatePrintFunction("?"), true, 5)
+// var s =  greeting.Salutation{"Joe", "Hello"}
+// greeting.Greet(s, greeting.CreatePrintFunction("?"), true, 5)
+// }
+
+// * Ranges and Slices * //
+
+var s =  greeting.Salutation{"Joe", "Hello"}
+greeting.Greet(s, greeting.CreatePrintFunction("?"), true, 5)
 }
+
+
 
 // Name of a function that is uppercase is exported
 // Pointer is just a special type of variable that holds the address of another variable in memory
