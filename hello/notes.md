@@ -30,3 +30,29 @@
 ### Function Types
 
 - All functions in Go are types
+
+
+### Branching Statement (if and switch)
+
+- if is similar to other language except optional statements (no parentheses) result is not optional
+- everything with a capital letter is imported to main
+
+### Switch statements in Go is different
+
+- There is no default fall through
+- every case just stops right there
+- No need for expression
+- cases can be expressions
+- you can switch based on the type
+
+### Loops 
+
+- Only one type of Loop (The for loop)
+
+### Type of Ranges 
+
+- Array or slice
+- String
+- Map
+- Channel
+
