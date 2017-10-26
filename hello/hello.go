@@ -9,11 +9,15 @@ func main() {
 
 // you can use a : instead of var
 // just like typescript you can declare what the var type is
+// star is a pointer
 
 	message := "Hello Go World!"
-	a, b, c := 1, false, 3
+	var greeting *string = &message
+	// greeting is assigned to the memory location of message
+	*greeting = "hi"
 
-	fmt.Printf(message, a, b, c)
+	fmt.Printf(message, *greeting)
 }
 
 // Name of a function that is uppercase is exported
+// Pointer is just a special type of variable that holds the address of another variable in memory
