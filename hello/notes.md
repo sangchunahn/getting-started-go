@@ -56,3 +56,9 @@
 - Map
 - Channel
 
+### Maps 
+
+- Used to store keys and values like a navigation map
+
+### Slices
+
